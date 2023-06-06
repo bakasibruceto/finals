@@ -13,9 +13,9 @@ if (RapidSub.canDelegate("activity_create")) { return b4a.example.shoes.remoteMe
 Debug.locals.put("FirstTime", _firsttime);
  BA.debugLineNum = 40;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
 Debug.ShouldStop(128);
- BA.debugLineNum = 41;BA.debugLine="Activity.LoadLayout(\"layshoes\")";
+ BA.debugLineNum = 41;BA.debugLine="Activity.LoadLayout(\"layshoes2\")";
 Debug.ShouldStop(256);
-shoes.mostCurrent._activity.runMethodAndSync(false,"LoadLayout",(Object)(RemoteObject.createImmutable("layshoes")),shoes.mostCurrent.activityBA);
+shoes.mostCurrent._activity.runMethodAndSync(false,"LoadLayout",(Object)(RemoteObject.createImmutable("layshoes2")),shoes.mostCurrent.activityBA);
  BA.debugLineNum = 42;BA.debugLine="tabshoes.AddTab(\"Heels\", \"layheels.bal\")";
 Debug.ShouldStop(512);
 shoes.mostCurrent._tabshoes.runVoidMethodAndSync ("AddTab",shoes.mostCurrent.activityBA,(Object)(BA.ObjectToString("Heels")),(Object)(RemoteObject.createImmutable("layheels.bal")));

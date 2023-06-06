@@ -375,8 +375,8 @@ if (Debug.shouldDelegate(mostCurrent.activityBA, "activity_create", false))
 RDebugUtils.currentLine=2752512;
  //BA.debugLineNum = 2752512;BA.debugLine="Sub Activity_Create(FirstTime As Boolean)";
 RDebugUtils.currentLine=2752513;
- //BA.debugLineNum = 2752513;BA.debugLine="Activity.LoadLayout(\"layshoes\")";
-mostCurrent._activity.LoadLayout("layshoes",mostCurrent.activityBA);
+ //BA.debugLineNum = 2752513;BA.debugLine="Activity.LoadLayout(\"layshoes2\")";
+mostCurrent._activity.LoadLayout("layshoes2",mostCurrent.activityBA);
 RDebugUtils.currentLine=2752514;
  //BA.debugLineNum = 2752514;BA.debugLine="tabshoes.AddTab(\"Heels\", \"layheels.bal\")";
 mostCurrent._tabshoes.AddTab(mostCurrent.activityBA,"Heels","layheels.bal");

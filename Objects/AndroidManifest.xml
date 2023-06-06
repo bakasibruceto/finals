@@ -15,14 +15,14 @@
 	<uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
 	<application
 		android:icon="@drawable/icon"
-		android:label="B4A Example"
+		android:label="Finals"
 		android:theme="@style/LightTheme">
 		<activity
 			android:windowSoftInputMode="stateHidden"
 			android:launchMode="singleTop"
 			android:name=".main"
-			android:label="B4A Example"
-			android:screenOrientation="unspecified"
+			android:label="Finals"
+			android:screenOrientation="portrait"
 			android:exported="true">
 			<intent-filter>
 			   <action android:name="android.intent.action.MAIN" />
@@ -42,16 +42,16 @@
 			android:windowSoftInputMode="stateHidden"
 			android:launchMode="singleTop"
 			android:name=".clothes"
-			android:label="B4A Example"
-			android:screenOrientation="unspecified"
+			android:label="Finals"
+			android:screenOrientation="portrait"
 			android:exported="true">
 		</activity>
 		<activity
 			android:windowSoftInputMode="stateHidden"
 			android:launchMode="singleTop"
 			android:name=".shoes"
-			android:label="B4A Example"
-			android:screenOrientation="unspecified"
+			android:label="Finals"
+			android:screenOrientation="portrait"
 			android:exported="true">
 		</activity>
 	</application>

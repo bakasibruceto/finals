@@ -44,7 +44,7 @@ Sub Globals
 End Sub
 
 Sub Activity_Create(FirstTime As Boolean)
-	Activity.LoadLayout("layshoes")
+	Activity.LoadLayout("layshoes2")
 	tabshoes.AddTab("Heels", "layheels.bal")
 	spinheels.Add("Select Heels")
 	spinheels.Add("Heels 1 = 100")

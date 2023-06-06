@@ -4,16 +4,17 @@ File10=layloafers.bal
 File11=laymain.bal
 File12=laypants.bal
 File13=layshoes.bal
-File14=layshorts.bal
-File15=laywedges.bal
-File16=pants1.jpg
-File17=pants2.jpg
-File18=pants3.jpg
-File19=shorts1.jpg
+File14=layshoes2.bal
+File15=layshorts.bal
+File16=laywedges.bal
+File17=pants1.jpg
+File18=pants2.jpg
+File19=pants3.jpg
 File2=blouse2.jpg
-File20=wedges1.jpg
-File21=wedges2.jpg
-File22=wedges3.jpg
+File20=shorts1.jpg
+File21=wedges1.jpg
+File22=wedges2.jpg
+File23=wedges3.jpg
 File3=blouse3.jpg
 File4=heels1.jpg
 File5=heels2.jpg
@@ -36,6 +37,7 @@ FileGroup2=Default Group
 FileGroup20=Default Group
 FileGroup21=Default Group
 FileGroup22=Default Group
+FileGroup23=Default Group
 FileGroup3=Default Group
 FileGroup4=Default Group
 FileGroup5=Default Group
@@ -51,17 +53,17 @@ ManifestCode='This code will be applied to the manifest file during compilation.
 Module1=Clothes
 Module2=Shoes
 Module3=Starter
-NumberOfFiles=22
+NumberOfFiles=23
 NumberOfLibraries=3
 NumberOfModules=3
 Version=12.2
 @EndOfDesignText@
 #Region  Project Attributes 
-	#ApplicationLabel: B4A Example
+	#ApplicationLabel: Finals
 	#VersionCode: 1
 	#VersionName: 
 	'SupportedOrientations possible values: unspecified, landscape or portrait.
-	#SupportedOrientations: unspecified
+	#SupportedOrientations: portrait
 	#CanInstallToExternalStorage: False
 #End Region
 

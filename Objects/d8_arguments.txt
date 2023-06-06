@@ -1,6 +1,6 @@
 --release
 --output
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects
+C:\xampp\htdocs\hackathon\finals\Objects
 --lib
 C:\Android\platforms\android-33\android.jar
 C:\Android\tools\..\extras\b4a_local\unpacked-b4ashared-63810047128000\dex_v1\b4ashared.zip
@@ -9,37 +9,38 @@ C:\Android\tools\..\extras\b4a_local\unpacked-core-63810047128000\dex_v1\core.zi
 C:\Android\tools\..\extras\b4a_local\unpacked-xui-63810047130000\dex_v1\xui.zip
 C:\Android\tools\..\extras\b4a_local\unpacked-dialogs-63743374462000\dex_v1\dialogs.zip
 C:\Android\tools\..\extras\b4a_local\unpacked-remotelogger-63810047130000\dex_v1\remotelogger.zip
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\clothes$1.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\clothes$B4AMenuItemsClickListener.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\clothes$HandleKeyDelayed.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\clothes$ResumeMessage.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\clothes$WaitForLayout.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\clothes.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\main$1.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\main$B4AMenuItemsClickListener.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\main$HandleKeyDelayed.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\main$ResumeMessage.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\main$WaitForLayout.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\main.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\R$drawable.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\R$style.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\R.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\shoes$1.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\shoes$B4AMenuItemsClickListener.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\shoes$HandleKeyDelayed.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\shoes$ResumeMessage.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\shoes$WaitForLayout.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\shoes.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\starter$1.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\starter$2.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\starter$starter_BR.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\starter.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\designerscripts\LS_layblouse.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\designerscripts\LS_layclothes.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\designerscripts\LS_layheels.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\designerscripts\LS_layloafers.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\designerscripts\LS_laymain.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\designerscripts\LS_laypants.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\designerscripts\LS_layshoes.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\designerscripts\LS_layshorts.dex
-C:\Users\ASUS-NOTEBOOK\Desktop\MidTerm - Copy\Objects\dexed\b4a\example\designerscripts\LS_laywedges.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\clothes$1.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\clothes$B4AMenuItemsClickListener.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\clothes$HandleKeyDelayed.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\clothes$ResumeMessage.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\clothes$WaitForLayout.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\clothes.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\main$1.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\main$B4AMenuItemsClickListener.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\main$HandleKeyDelayed.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\main$ResumeMessage.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\main$WaitForLayout.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\main.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\R$drawable.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\R$style.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\R.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\shoes$1.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\shoes$B4AMenuItemsClickListener.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\shoes$HandleKeyDelayed.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\shoes$ResumeMessage.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\shoes$WaitForLayout.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\shoes.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\starter$1.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\starter$2.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\starter$starter_BR.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\starter.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\designerscripts\LS_layblouse.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\designerscripts\LS_layclothes.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\designerscripts\LS_layheels.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\designerscripts\LS_layloafers.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\designerscripts\LS_laymain.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\designerscripts\LS_laypants.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\designerscripts\LS_layshoes.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\designerscripts\LS_layshoes2.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\designerscripts\LS_layshorts.dex
+C:\xampp\htdocs\hackathon\finals\Objects\dexed\b4a\example\designerscripts\LS_laywedges.dex
