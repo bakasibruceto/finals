@@ -1,0 +1,149 @@
+﻿Build1=Default,b4a.example
+File1=blouse1.jpg
+File10=layloafers.bal
+File11=laymain.bal
+File12=laypants.bal
+File13=layshoes.bal
+File14=layshorts.bal
+File15=laywedges.bal
+File16=pants1.jpg
+File17=pants2.jpg
+File18=pants3.jpg
+File19=shorts1.jpg
+File2=blouse2.jpg
+File20=wedges1.jpg
+File21=wedges2.jpg
+File22=wedges3.jpg
+File3=blouse3.jpg
+File4=heels1.jpg
+File5=heels2.jpg
+File6=heels3.jpg
+File7=layblouse.bal
+File8=layclothes.bal
+File9=layheels.bal
+FileGroup1=Default Group
+FileGroup10=Default Group
+FileGroup11=Default Group
+FileGroup12=Default Group
+FileGroup13=Default Group
+FileGroup14=Default Group
+FileGroup15=Default Group
+FileGroup16=Default Group
+FileGroup17=Default Group
+FileGroup18=Default Group
+FileGroup19=Default Group
+FileGroup2=Default Group
+FileGroup20=Default Group
+FileGroup21=Default Group
+FileGroup22=Default Group
+FileGroup3=Default Group
+FileGroup4=Default Group
+FileGroup5=Default Group
+FileGroup6=Default Group
+FileGroup7=Default Group
+FileGroup8=Default Group
+FileGroup9=Default Group
+Group=Default Group
+Library1=core
+Library2=xui
+Library3=dialogs
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="29"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~'End of default text.~\n~
+Module1=Clothes
+Module2=Shoes
+Module3=Starter
+NumberOfFiles=22
+NumberOfLibraries=3
+NumberOfModules=3
+Version=12.2
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: B4A Example
+	#VersionCode: 1
+	#VersionName: 
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: unspecified
+	#CanInstallToExternalStorage: False
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: True
+#End Region
+
+Sub Process_Globals
+	'These global variables will be declared once when the application starts.
+	'These variables can be accessed from all modules.
+	Private xui As XUI
+	Dim totclothes As String :totclothes=0
+	Dim totshoes As String: totshoes=0
+End Sub
+
+Sub Globals
+	'These global variables will be redeclared each time the activity is created.
+	Private txtclothes As EditText
+	Private txtshoes As EditText
+	Private txttotal As EditText
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	Activity.LoadLayout("laymain")
+End Sub
+
+Sub Activity_Resume
+	txtclothes.Text = totclothes
+	txtshoes.Text = totshoes
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+
+Sub btnclothes_Click
+	StartActivity(Clothes)
+	ToastMessageShow("Select Clothes", False)
+End Sub
+
+Sub btnshoes_Click
+	StartActivity(Shoes)
+	ToastMessageShow("Select Shoes", False)
+End Sub
+
+Sub btntotal_Click
+	txttotal.Text = txtclothes.Text + txtshoes.Text
+End Sub
+
+Sub Activity_KeyPress (KeyCode As Int) As Boolean 'Return True to consume the event
+	Dim ans As Int
+	Dim txt As String
+	If KeyCode = KeyCodes.KEYCODE_BACK Then
+		txt = "Do you really want to quit the program?"
+		ans = Msgbox2(txt, "","Yes","","No",Null)
+		If ans = DialogResponse.POSITIVE Then
+			Return False
+		Else
+			Return True
+		End If
+	End If
+End Sub
+
+
+
+Sub btnexit_Click
+	Dim xt As Int
+	xt = Msgbox2("Are You Sure to Exit?","","Yes","","No",Null)
+	If xt = DialogResponse.POSITIVE Then
+		ExitApplication
+	End If
+End Sub
+
+Sub btnclear_Click
+	Dim clr As Int
+	clr = Msgbox2("Are You Sure to Clear?","Clear","Yes","","No",Null)
+	If clr = DialogResponse.POSITIVE Then
+		txtclothes.Text = 0
+		txtshoes.Text = 0
+		txttotal.Text = 0
+		totshoes = 0
+		totclothes = 0
+	End If
+	End Sub
